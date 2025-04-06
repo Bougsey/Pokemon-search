@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .type-badge {
+    @apply px-3 py-1 rounded-full text-white;
+  }
+
+  .type-badge.fire { @apply bg-orange-500; }
+  .type-badge.water { @apply bg-blue-500; }
+  .type-badge.grass { @apply bg-green-500; }
+  .type-badge.bug { @apply bg-lime-500; }
+  .type-badge.poison { @apply bg-purple-500; }
+  .type-badge.normal { @apply bg-gray-500; }
+  .type-badge.electric { @apply bg-yellow-500; }
+  .type-badge.ground { @apply bg-amber-500; }
+  .type-badge.fairy { @apply bg-pink-500; }
+  .type-badge.dragon { @apply bg-indigo-500; }
+  .type-badge.ghost { @apply bg-violet-500; }
+  .type-badge.rock { @apply bg-stone-500; }
+  .type-badge.psychic { @apply bg-rose-500; }
+  .type-badge.ice { @apply bg-cyan-500; }
+  .type-badge.dark { @apply bg-neutral-500; }
+  .type-badge.steel { @apply bg-slate-500; }
+  .type-badge.fighting { @apply bg-red-500; }
+  .type-badge.flying { @apply bg-sky-500; }
+}
