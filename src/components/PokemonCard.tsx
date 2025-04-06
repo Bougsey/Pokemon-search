@@ -5,9 +5,6 @@ interface PokemonCardProps {
 }
 
 export default function PokemonCard({ pokemon }: PokemonCardProps) {
-  // Get the primary type for the card background
-  const primaryType = pokemon.types[0];
-  
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
       <div className="relative aspect-square bg-gradient-to-b from-gray-50 to-gray-100">
